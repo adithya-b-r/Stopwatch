@@ -10,6 +10,6 @@ A simple and responsive stopwatch web app built using HTML, CSS, and JavaScript.
 
 ## How to Use
 
-1. Visit the [Stopwatch Application on Netlify](https://your-netlify-link).
+1. Visit the [Stopwatch Application on Netlify](https://abr-stopwatch.netlify.app).
 2. Use the buttons to control the stopwatch.
 
