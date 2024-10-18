@@ -44,9 +44,9 @@ function TPause() {
 function TReset() {
   clearInterval(stopWatch)
 
-  min.innerText = 0
-  sec.innerText = 0
-  milSec.innerText = 0
+  min.innerText = '00'
+  sec.innerText = '00'
+  milSec.innerText = '00'
 
   tmin = 0
   tsec = 0
