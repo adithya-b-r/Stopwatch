@@ -23,9 +23,9 @@ function manipulateTime() {
     tmin++;
   }
 
-  min.innerText = tmin
-  sec.innerText = tsec
-  milSec.innerText = tmilSec
+  min.innerText = tmin < 10 ? '0'+tmin : tmin;
+  sec.innerText = tsec < 10 ? '0'+tsec : tsec;
+  milSec.innerText = tmilSec < 10 ? '0'+tmilSec : tmilSec;
 
   if (!pause)
     tmilSec++
